@@ -17,10 +17,10 @@ Projects
 
 * `julia-set` from "CUDA BY EXAMPLE: An Introduction to General-Purpose GPU
    Programming" by Jason Sanders and Edward Kandrot
-    - Uses `boost::multi_array`, CUDA, and ImageMagick to construct julia sets
+    - Uses `boost::multi_array`, CUDA, and OpenCV (or ImageMagick, slower) to construct julia sets
     - If you have all of this installed, should be as simple as:
 ```
-cd julia-set
+cd julia-set/opencv
 mkdir build
 cd build
 cmake -DCMAKE_C_COMPILER=gcc-5 -DCMAKE_CXX_COMPILER=g++-5 ..
