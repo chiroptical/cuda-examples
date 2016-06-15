@@ -1,8 +1,10 @@
-BCUDA
-=====
+CUDA Examples
+=============
 
 Cuda examples (contrived or found in books) converted to boost::multiarray and
 C++ when possible. Should be a cmake file in each subdirectory for building.
+I will provide a reference for all examples in books. I will likely start wrapping
+functionality into a more useful header file.
 
 Notes
 =====
