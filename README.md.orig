@@ -19,8 +19,12 @@ Projects
 
 * `julia-set` from "CUDA BY EXAMPLE: An Introduction to General-Purpose GPU
    Programming" by Jason Sanders and Edward Kandrot
+<<<<<<< HEAD
+    - Uses `boost::multi_array`, CUDA, and OpenCV (or ImageMagick, much slower) to construct julia sets
+=======
     - Currently prints a black to white gradient (took me a bit to get everything working together)
     - Uses `boost::multi_array`, CUDA, and OpenCV (or ImageMagick, slower) to construct julia sets
+>>>>>>> 1becb0fdb3a9e0ca8e036348527d04be420b669c
     - If you have all of this installed, should be as simple as:
 ```
 cd julia-set/opencv
