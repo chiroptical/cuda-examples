@@ -20,6 +20,9 @@ endif()
 find_package(CUDA)
 if(NOT ${CUDA_FOUND})
     message(FATAL_ERROR "Couldn't find CUDA!")
+else()
+    set(CUDA_NVCC_FLAGS "-std=c++11")
+    #include_directories(${CUDA_TOOLKIT_INCLUDE})
 endif()
 
 # Need OpenCV

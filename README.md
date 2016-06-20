@@ -17,7 +17,7 @@ Projects
 
 * `julia-set` from "CUDA BY EXAMPLE: An Introduction to General-Purpose GPU
    Programming" by Jason Sanders and Edward Kandrot
-    - Uses `boost::multi_array`, CUDA, and OpenCV (or ImageMagick, slower) to construct julia sets
+    - Uses `boost::multi_array`, CUDA, and OpenCV (or ImageMagick, much slower) to construct julia sets
     - If you have all of this installed, should be as simple as:
 ```
 cd julia-set/opencv
